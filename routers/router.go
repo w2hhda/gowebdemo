@@ -7,4 +7,5 @@ import (
 
 func init() {
     beego.Router("/api/live.do", &controllers.MainController{})
+	beego.Router("/api/market.do", &controllers.MarketController{})
 }
